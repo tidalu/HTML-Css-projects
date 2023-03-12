@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)), url('https://images.wallpaperscraft.com/image/single/mountains_lake_tops_119133_1280x1024.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:'Source Serif Pro', serif;
+    overflow: hidden;
+	
+    
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+
+}
+
+.nacont {
+    margin: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-basis: 100%;
+    
+}
+ul {
+    margin: 10px auto;
+    padding: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    align-self: center;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.nacont a {
+    text-decoration: none;
+    color: #fff;
+    flex-basis: 16%;
+    gap: 5%;
+    font-family: 'Cinzel', serif;
+}
+
+
+
+
+img#location {
+    width: 50px;
+    height: 50px;
+}
+
+img#search {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.content {
+
+    display: flex;
+    position: relative;
+    flex-basis: 100%;
+    justify-content: center;;
+
+}
+
+.main{
+    margin: 30px;
+    
+    padding: 30px;
+    
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.main h1 {
+    font-family: 'Playfair Display', serif;
+    flex-basis: 100%;
+    font-size: 100px;
+    margin-top: -10px;
+    /* justify-content: center;
+    align-items: center; */
+    /* padding-left: 200px; */
+    text-align: center;
+    text-shadow: 5px 5px 26px rgba(70, 225, 252, 0.329) ;
+    
+
+}
+
+p#medium {
+    margin-top: -10px;
+    font-family: 'Sono', sans-serif;
+    font-size: 30px;
+    flex-basis: 100%;
+    text-align: center;
+}
+.vid-log {
+    margin-top: 50px;
+}
+img.img-play {
+    margin: 20px auto;
+    padding: 30px;
+    flex-basis: 100px;
+}
+
+
+
+
+
+
