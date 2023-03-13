@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            padding: 0%;
+            margin: 0;
+        }
+        #layout {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        #nav {
+            flex-basis: 100%;
+            padding: 20px;
+            border-bottom: 1px solid #aaa;
+        }
+
+        #sidebar {
+            flex-basis: 20%;
+            padding: 20px;
+            border-right: 1px solid #aaa;
+            border-bottom: 2px greenyellow solid;
+        }
+
+        #content {
+            padding: 20px;
+            flex-basis: 80%;
+            border: 2px solid red;
+            border-bottom: 2px greenyellow solid;
+        }
+
+        @media (max-width: 640px) {
+            #sidebar, #content {
+                flex-basis: 100%;
+                border-right: 0;
+            }
+        }
+
+        @media (max-width: 475px) {
+            #sidebar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="layout">
+        <div id="nav">
+            navigatioon is here
+        </div>
+        <div id="sidebar">
+            sidaber is here
+        </div>
+        <div id="content">
+            content is here
+        </div>
+    </div>
+</body>
+</html>
