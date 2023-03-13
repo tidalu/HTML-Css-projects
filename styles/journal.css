@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing:border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sono:wght@300&display=swap');
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)); 
+    background-color: black;
+    -webkit-background-size: cover;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:'Source Serif Pro', serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#main-con {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 1rem;
+}
+
+.title_w {
+    display: block;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.title {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.para {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+
+.cards {
+    min-height: 60vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap:2%;
+}
+
+figure {
+    flex-basis: 49%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+    
+    
+}
+.fig1,
+.fig2 {
+    float: left;
+}
+
+.fig3 {
+    float: right;
+}
+img {
+    width: 100%;
+    height: 600px;
+    display: block;
+}
+
+figcaption {
+    position: absolute;
+    text-align: center;
+    height: auto;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    color: #ffffff;
+}
+h4 {
+    font-weight:100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    font-family: 'Cormorant', serif;
+    color: #ffffff;
+    
+    font-size: 30px;
+}
+
+figcaption > p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.see-more {
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Sono', sans-serif;
+    
+}
+
+p > a {
+    text-decoration: none;
+    text-shadow: 1px 1px 15px rgb(0, 76, 255);
+    font-size: 17px;
+    color: rgb(0, 106, 255);
+
+}
