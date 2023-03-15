@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  button {
+    border: none;
+    background-color: cyan;
+    color: #00514c;
+    text-align: center;
+    font-size: 32px;
+    width: 450px;
+    height: 90px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan,0 0 100px cyan, 0 0 200px cyan;
+  }
