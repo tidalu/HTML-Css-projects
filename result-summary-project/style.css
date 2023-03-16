@@ -125,8 +125,7 @@ li {
     font-weight: 900;
     text-align: left;
     font-size: 24px;
-    margin:  25px 40px 0 40px;
-    padding: 0;
+    padding-left: 40px;
     color: rgb(59,64,90);
 }
 
