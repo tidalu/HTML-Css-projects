@@ -8,4 +8,10 @@ project-3, just a challenge, i created responsive summary page for kinda applica
 
 project-4 , i created responsive fake-deploy web-site : https://tidalu-deploy.netlify.app/
 
-project-4.2 i created flex boxes -from frontend master io: https://tidalu-frontend-master-challenge.netlify.app/
+project-4.1 i created flex boxes -from frontend master io: https://tidalu-frontend-master-challenge.netlify.app/
+
+project-4.2{i will push today}
+
+project-4.3{I will push today}
+
+
