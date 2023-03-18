@@ -7,3 +7,5 @@ Project-2: i did it based on youtube course, I revised most i have learned, i us
 project-3, just a challenge, i created responsive summary page for kinda application here u can check: https://tidalu-summary-page.netlify.app/
 
 project-4 , i created responsive fake-deploy web-site : https://tidalu-deploy.netlify.app/
+
+project-4.2 i created flex boxes -from frontend master io: https://tidalu-frontend-master-challenge.netlify.app/
