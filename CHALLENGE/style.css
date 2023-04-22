@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 200px;
+    height: 350px;
+    transform: scale(0.7);
+}
+
+.product_image {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 7px;
+    position: relative;
+}
+
+.product_image .inner_shape {
+    background-color: rgb(8, 190, 53);
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(0 0, 50% 0, 100% 0, 100% 100%, 50% 100%, 50% 63.2%, 0 63%, 0 23%);
+}
+
+
+
+.sec {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(74, 14, 195);
+    position: relative;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cost {
+    position: absolute;
+    bottom: 98%;
+    left: 0;
+    background-color: rgb(74, 14, 195);
+    height: 86px;
+    width: 93px;
+    border-radius: 10% 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+.btn-shape {
+    height: 30px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+
+
+/* .cost::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+
+
+} */
